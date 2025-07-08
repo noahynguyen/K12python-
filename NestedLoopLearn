@@ -1,0 +1,30 @@
+# Author: Noah Nguyen
+# Date: 2025-7-8
+# RC Enrichment Summer 2025: Introduction to Python Programming
+
+# 1
+# 1 2 
+# 1 2 3 
+# 1 2 3 4
+
+# 4 rows, 4 columns
+for i in range(1, 5): # row 
+    for j in range(1, i+1): # column
+        print(j , end=" ")
+    print()
+    
+# first run
+# i = 1:
+    # j = 1: range(1,2): 1 -> print 1                   i = 1: first row    1
+# i = 2: range(1,3): 1 2                                i = 2: second row   1 2
+    # j = 1: range(1,3): 1 -> print 1                   i = 3: third row    1 2 3
+    # j = 2: range(1,3): 2 -> print 2                   i = 4: fourth row   1 2 3 4
+# i = 3: range(1,4): 1 2 3
+    # j = 1: range(1,4): 1 -> print 1
+    # j = 2: range(1,4): 2 -> print 2
+    # j = 3: range(1,4): 3 -> print 3
+# i = 4: range(1,5): 1 2 3 4
+    # j = 1: range(1,5): 1 -> print 1
+    # j = 2: range(1,5): 2 -> print 2
+    # j = 3: range(1,5): 3 -> print 3
+    # j = 4: range(1,5): 4 -> print 4    
